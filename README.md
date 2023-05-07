@@ -31,3 +31,4 @@ https://travelo-travels.netlify.app/
 ### Repository View Counter - HITS
 
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Tanu-N-Prabhu/Python)
+![](https://komarev.com/ghpvc/?username=Adithya-R-Iyer&color=green)
