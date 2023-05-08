@@ -10,7 +10,7 @@ https://travelo-travels.netlify.app/
 
 ## 1. GitHub Stats
 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Sharanbr19&show_icons=true)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Shashanka-rao&show_icons=true)
 
 ## 2. Most Used Languages
 
