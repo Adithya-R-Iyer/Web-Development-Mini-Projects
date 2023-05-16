@@ -1,0 +1,147 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(blog-bg.jpg);
+    /* display: block; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.left {
+    display: inline-block;
+    position: absolute;
+    /* line-height: 0px; */
+    left: 60px;
+    top: 20px;
+    /* border: 2px solid red; */
+
+}
+
+.left img {
+    width: 100px;
+    height: 40px;
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid yellow; */
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 2px solid blue; */
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: purple;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 100px 80px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+/* .form-group input, select {
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+} */
+
+.form-input, select{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+/* .form-group input::placeholder{
+    padding-left: 20px;
+} */
+
+.form-group input{
+    padding-left: 20px;
+}
+
+.empty-alert{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: #ffbbbb;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
