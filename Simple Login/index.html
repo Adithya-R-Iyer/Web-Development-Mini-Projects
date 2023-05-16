@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelo | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>TRAVELO</h2>
+    </header>
+    <section class="title">
+        <div class="container">
+            <h3>Upload Your Files</h3>
+            <p>Use this form to upload and send files in the following formats: jpg, jpeg, png, gif, mp3, mp4</p>
+        </div>
+    </section>
+    <section class="form">
+        <form action="#" method="POST">
+            <div class="formContainer">
+                <div class="formElem1">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" placeholder="First Name"/>
+                </div>
+                <div class="formElem1">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="fname" placeholder="Last Name"/>
+                </div>
+                <div class="formElem1">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="fname" placeholder="Phone Number"/>
+                </div>
+                <div class="formElem1">
+                    <label for="fname">Email Address</label>
+                    <input type="text" name="email" placeholder="Email Address"/>
+                </div>
+                <div class="formElem2">
+                    <label>How many Files are you uploading?</label>
+                    <input type="radio" name="files" value="1">&nbsp; 1
+                    <input type="radio" name="files" value="2">&nbsp; 2
+                    <input type="radio" name="files" value="3">&nbsp; 3
+                    <input type="radio" name="files" value="4">&nbsp; 4
+                </div>
+                <div class="formElem3">
+                    <label>Upload your files</label>
+                    <input type="file" name="uploadFile">
+                </div>
+                <div class="formElem4">
+                    <label for="countryName">Country</label>
+                    <select name="Country">
+                        <option value="india">India</option>
+                        <option value="india">China</option>
+                        <option value="india">New Zealand</option>
+                        <option value="india">Australia</option>
+                        <option value="india">America</option>
+                        <option value="india">Taiwan</option>
+                        <option value="india">Japan</option>
+                    </select>
+                </div>
+                <div class="formElem5">
+                    <label for="City">City</label>
+                    <input type="text" name="city"/>
+                </div>
+                <div class="btnGrp">
+                    <input id="submit" type="submit" name="submit"/>
+                    <input id="clearForm" type="button" name="Clear" value="Clear Form" />
+                </div>
+
+
+                
+            </div>
+        </form>
+    </section>
+</body>
+</html>
