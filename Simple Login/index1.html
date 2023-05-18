@@ -37,19 +37,20 @@
         <h1>Join us to see the world!</h1>
         <form action="noaction.php">
             <div class="form-group">
-                <input class="form-input" type="text" name="" placeholder="Enter your first name">
+                <input class="form-input" type="text" id="firstName"  placeholder="Enter your first name">
             </div>
             <div class="form-group">
-                <input class="form-input" type="text" name="" placeholder="Enter your last time">
+                <input class="form-input" type="text" id="lastName" placeholder="Enter your last name">
             </div>
             <div class="form-group">
-                <input class="form-input" type="text" name="" placeholder="Enter your phone number">
+                <input class="form-input" type="text" name="" id="phoneNumber" pattern="[0-9]" placeholder="Enter your phone number">
             </div>
             <div class="form-group">
                 <input class="form-input" type="text" name="" placeholder="Enter your Email id ">
             </div>
             <div class="form-group">
                 <select name="Country" >
+                    <option value="india" id="op1">--------</option>
                     <option value="india">India</option>
                     <option value="india">China</option>
                     <option value="india">New Zealand</option>

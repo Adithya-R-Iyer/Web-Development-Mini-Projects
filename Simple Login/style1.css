@@ -126,6 +126,14 @@ body {
     border-radius: 8px;
 }
 
+select {
+    width: 525px !important;
+}
+
+#op1 {
+    color: gray !important;
+}
+
 /* .form-group input::placeholder{
     padding-left: 20px;
 } */
